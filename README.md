@@ -44,11 +44,11 @@ This project is a web application where users can add, view, update, and delete 
    ```
 
 2. Navigate to the backend and frontend directory:
-   \n**DialyNote As Backend**
+   DialyNote As Backend
    ```bash
    cd DiaryNote-WebApp/DialyNote
    ```
-   **diary-frontend As Frontend**
+   diary-frontend As Frontend
    ```bash
    cd DiaryNote-WebApp/diary-frontend
    ```
