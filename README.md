@@ -43,18 +43,23 @@ This project is a web application where users can add, view, update, and delete 
    git clone https://github.com/your-repo/DiaryNote-WebApp.git
    ```
 
-2. Navigate to the backend directory:
+2. Navigate to the backend and frontend directory:
+   **DialyNote As Backend**
    ```bash
-   cd DiaryNote-WebApp/Backend
+   cd DiaryNote-WebApp/DialyNote
+   ```
+   **diary-frontend As Frontend**
+   ```bash
+   cd DiaryNote-WebApp/diary-frontend
    ```
 
-3. Create a PostgreSQL database:
+4. Create a PostgreSQL database:
    - Open `psql` and create the database:
      ```sql
      CREATE DATABASE diary_note_db;
      ```
 
-4. Configure database connection in `application.properties`:
+5. Configure database connection in `application.properties`:
 
    - Open `src/main/resources/application.properties` and add the following configuration:
      ```properties
@@ -68,12 +73,12 @@ This project is a web application where users can add, view, update, and delete 
 
    Replace `your-username` and `your-password` with your PostgreSQL credentials.
 
-5. Build the Spring Boot application using Maven:
+6. Build the Spring Boot application using Maven:
    ```bash
    mvn clean install
    ```
 
-6. Run the Spring Boot application:
+7. Run the Spring Boot application:
    ```bash
    mvn spring-boot:run
    ```
